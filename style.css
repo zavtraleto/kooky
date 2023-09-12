@@ -20,6 +20,7 @@ body {
   flex: 1 0 50%;
   padding: 10px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .header {
@@ -30,8 +31,9 @@ body {
 }
 
 .muha {
-  height: 200px;
-  margin-top: auto;
+  height: 300px;
+  position: absolute;
+  right: 0;
 }
 
 .description {
